@@ -23,6 +23,12 @@
     font-weight: lighter;
 }
 
+/* TEXTUAL */
+
+a {
+    text-decoration: none;
+}
+
 /* HEADER AND FOOTER CLASSES */
 
 .header {
