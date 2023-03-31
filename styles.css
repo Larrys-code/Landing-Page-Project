@@ -15,6 +15,11 @@ body {
     justify-content: space-between;
 }
 
+.mainpadding-lr {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .darkbg {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -66,7 +71,8 @@ a {
 
 .header {
     display: flex;
-    padding: 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
     justify-content: space-between;
 }
