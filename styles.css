@@ -10,7 +10,7 @@ body {
 
 .darkbg {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
 }
 
 .lightbg {
@@ -18,3 +18,10 @@ body {
     color: #1F2937;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
