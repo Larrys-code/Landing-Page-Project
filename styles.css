@@ -4,9 +4,6 @@
     box-sizing: border-box;
   }
   
-body {
-
-}
 
 .darkbg {
     background-color: #1F2937;
@@ -24,4 +21,27 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+}
+
+/* HEADER AND FOOTER CLASSES */
+
+.header {
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header > ul {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
