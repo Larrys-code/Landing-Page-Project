@@ -36,6 +36,10 @@ body {
 .fill {
     flex: 1;
 }
+
+.flex1 {
+    flex: 1;
+}
 /* TEXTUAL */
 
 a {
@@ -46,6 +50,16 @@ a {
     font-size: 18px;
     font-weight: bold;
     font-style: normal;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.darkbg.sub {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 /* HEADER AND FOOTER CLASSES */
@@ -84,4 +98,19 @@ a {
 
 .copyright {
     font-size: 18px;
+}
+
+/* CONTENT CLASSES */
+
+.split {
+    display: flex;
+    justify-content: center;
+}
+
+.large-placeholder {
+    background-color: gray;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
