@@ -7,3 +7,14 @@
 body {
 
 }
+
+.darkbg {
+    background-color: #1F2937;
+    color: white;
+}
+
+.lightbg {
+    background-color: white;
+    color: #1F2937;
+}
+
