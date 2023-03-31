@@ -16,8 +16,8 @@ body {
 }
 
 .mainpadding-lr {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .darkbg {
@@ -113,9 +113,14 @@ a {
     justify-content: center;
 }
 
+.mainbox {
+    flex: 1 0 250px;
+    padding-right: 30px;
+}
+
 .large-placeholder {
     background-color: gray;
-    flex: 1;
+    flex: 1 0 250px;
     display: flex;
     justify-content: center;
     align-items: center;
