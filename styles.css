@@ -194,6 +194,7 @@ a {
 
 .large-placeholder {
     background-color: gray;
+    border-radius: 9px;
     flex: 1 0 250px;
     display: flex;
     justify-content: center;
