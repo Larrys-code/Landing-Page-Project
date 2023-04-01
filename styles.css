@@ -16,8 +16,13 @@ body {
 }
 
 .mainpadding-lr {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.subpadding-lr {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .darkbg {
@@ -30,12 +35,6 @@ body {
     color: #1F2937;
 }
 
-.quote {
-    background-color: #E5E7EB;
-    color: #1F2937;
-    display: flex;
-    justify-content: center;
-}
 
 .fill {
     flex: 1;
@@ -43,6 +42,10 @@ body {
 
 .flex1 {
     flex: 1;
+}
+
+.main-width {
+    width: 1090px;
 }
 /* TEXTUAL */
 
@@ -55,7 +58,7 @@ a {
     font-weight: bold;
     font-style: normal;
     text-align: right;
-    padding-right: 10px;
+    padding-left: 8%;
 }
 
 .title {
@@ -72,13 +75,14 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    flex: 3 0 0px;
+    flex: 0 1 auto;
 }
 
 /* HEADER AND FOOTER CLASSES */
 
 .header {
     display: flex;
+    flex: 0 1 auto;
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
@@ -116,14 +120,21 @@ a {
 
 /* CONTENT CLASSES */
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .split {
     display: flex;
     justify-content: center;
+    flex: 0 1 auto;
 }
 
 .mainbox {
     flex: 1 0 250px;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 
 .large-placeholder {
@@ -132,4 +143,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
