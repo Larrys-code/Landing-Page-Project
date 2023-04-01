@@ -87,6 +87,7 @@ button.sign-up.alt:hover{
 
 .main-width {
     width: 1090px;
+    flex: 0 1 auto;
 }
 /* TEXTUAL */
 
@@ -127,7 +128,6 @@ a {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    flex: 0 1 auto;
     margin-bottom: -18px;
 }
 
@@ -135,7 +135,6 @@ a {
 
 .header {
     display: flex;
-    flex: 0 1 auto;
     padding-top: 20px;
     padding-bottom: 20px;
     align-items: center;
@@ -181,7 +180,6 @@ a {
 .split {
     display: flex;
     justify-content: center;
-    flex: 0 1 auto;
 }
 
 .mainbox {
