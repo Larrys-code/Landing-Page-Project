@@ -48,6 +48,10 @@ button.sign-up.alt:hover{
     padding-top: 70px;
 }
 
+.evenchin {
+    padding-bottom: 70px;
+}
+
 .evenforehead {
     padding-top: 100px;
 }
@@ -176,7 +180,7 @@ a {
 
 .footer {
     display: flex;
-    padding: 20px 0px;
+    padding: 40px 0px;
     align-items: center;
     justify-content: center;
 }
