@@ -197,6 +197,13 @@ a {
     align-items: center;
 }
 
+.gallery-titlecard {
+    align-items: center;
+    min-height: 100px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
