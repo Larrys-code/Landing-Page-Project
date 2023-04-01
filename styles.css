@@ -24,8 +24,18 @@ button {
     margin-bottom: 5px;
     cursor: pointer;
 }
+button.sign-up.alt {
+    border: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
 button.sign-up:hover{
     background-color: #2267d4;
+}
+
+button.sign-up.alt:hover{
+    background-color: #2b79f7;
 }
 
 .sign-up {
@@ -94,6 +104,17 @@ a {
 .title {
     font-size: 48px;
     font-weight: 900;
+}
+
+.cta-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
 }
 
 .darkbg.sub {
@@ -178,4 +199,12 @@ a {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
+}
+
+.cta {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+    align-items: center;
 }
