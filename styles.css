@@ -89,6 +89,11 @@ button.sign-up.alt:hover{
     width: 1090px;
     flex: 0 1 auto;
 }
+
+.sub-width {
+    width: 1050px;
+    flex: 0 1 auto; 
+}
 /* TEXTUAL */
 
 a {
