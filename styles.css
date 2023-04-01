@@ -23,6 +23,7 @@ button {
     margin-top: 10px;
     margin-bottom: 5px;
     cursor: pointer;
+    flex: 0 0 auto;
 }
 button.sign-up.alt {
     border: white;
